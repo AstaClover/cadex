@@ -2,7 +2,7 @@
 
 TMP_FOLDER=$(mktemp -d)
 CONFIG_FILE='cadex.conf'
-CONFIGFOLDER='/root/.cadex'
+CONFIGFOLDER='/root/.CADEXCOIN'
 COIN_DAEMON='cadexd'
 COIN_CLI='cadex-cli'
 COIN_PATH='/usr/local/bin/'

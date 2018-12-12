@@ -8,7 +8,7 @@ COIN_CLI='cadex-cli'
 COIN_PATH='/usr/local/bin/'
 COIN_TGZ='https://github.com/cadexproject/cadex/releases/download/v1.0.0/ubuntu16-cli.tar.gz'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
-COIN_NAME='Kiss'
+COIN_NAME='cadex'
 COIN_PORT=27270
 RPC_PORT=28280
 

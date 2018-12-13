@@ -1,10 +1,10 @@
-# cadex Masternode Setup Guide (Ubuntu 16.04)
-This guide will assist you in setting up a cadex Masternode on a Linux Server running Ubuntu 16.04. (Use at your own risk)
+# rtak Masternode Setup Guide (Ubuntu 16.04)
+This guide will assist you in setting up a rtak Masternode on a Linux Server running Ubuntu 16.04. (Use at your own risk)
 
-If you require further assistance contact the support team @ [Discord](https://discord.gg/pcYx7Ft)
+If you require further assistance contact the support team @ [Discord]()
 ***
 ## Requirements
-1) **100,000 cadex coins.**
+1) **1,000 rtak coins.**
 2) **A Vultr VPS running Linux Ubuntu 16.04.**
 3) **A Windows local wallet.**
 4) **An SSH client such as [Bitvise](https://dl.bitvise.com/BvSshClient-Inst.exe)**
@@ -101,7 +101,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 * Paste the code below into the Bitvise terminal then press enter (it will just go to a new line)
 ![Example-RootPassEnter](https://i.imgur.com/vuDtUVj.png)
 
-`wget wget -N https://raw.githubusercontent.com/AstaClover/cadex/master/install.sh`
+`wget wget -N https://raw.githubusercontent.com/AstaClover/rtak/master/install.sh`
 ***
 
 ***Step 8***
@@ -132,11 +132,11 @@ If you require further assistance contact the support team @ [Discord](https://d
 ## Section D: Preparing the Local wallet
 
 ***Step 1***
-* Download and install the cadex wallet [here](https://github.com/cadexproject/cadex/releases/download/v1.0.0/window-qt.zip)
+* Download and install the rtak wallet [here](https://github.com/rtakproject/rtak/releases/download/v1.0.0/window-qt.zip)
 ***
 
 ***Step 2***
-* Send EXACLY 500 cadex to a receive address within your wallet.
+* Send EXACLY 500 rtak to a receive address within your wallet.
 ***
 
 ***Step 3***
@@ -191,9 +191,9 @@ Click "File Save"
 ***step 4***
 * Check the status of your masternode within the VPS by using the command below:
 
-`cadex-cli masternode status`
+`rtak-cli masternode status`
 
-`cadex-cli getinfo`
+`rtak-cli getinfo`
 
 *You should see ***masternode succesfuly started***
 
